@@ -4,9 +4,8 @@ My program has a page for inserting data into the cloud database (data_inserting
 
 I decided to write this software because I've always been curious in cloud databases, especially since I already know MySQL and SQL. I understand how those work and how to make it work, but I didn't know the differences are between NoSQL and why companies are going towards cloud databases. So here we are! I decided to create a small database about scientists to give a feel about how to create and manipulate the data!
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
 
-[Database Demo Video](http://youtube.link.goes.here)
+[Database Demo Video](https://youtu.be/OkGJ0kxgsvg)
 
 # Cloud Database
 
