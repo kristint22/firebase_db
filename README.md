@@ -1,33 +1,27 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
-I decided that since I already knew MySQL and SQL that it was time to learn about and how to use a cloud database.I've always wanted to learn because the idea was always interesting to me, so might as well sit down and learn.
+My program has a page for inserting data into the cloud database (data_inserting.py), a page for querying and updating data in the database (data_query.py), and a page to delete a single field and then it deletes two documents that in turn deletes a collection (data_deleting.py). 
 
-I decided to use Google Firebase to create my cloud database. Firebase has a lot of features and I knew that I would be able to learn how to create a server for my data, be able to use python to write the code to create and update the database.  
-
-{Provide a description of the software that you wrote and how it integrates with a Cloud Database. Describe how to use your program.}
-
-{Describe your purpose for writing this software.}
+I decided to write this software because I've always been curious in cloud databases, especially since I already know MySQL and SQL. I understand how those work and how to make it work, but I didn't know the differences are between NoSQL and why companies are going towards cloud databases. So here we are! I decided to create a small database about scientists to give a feel about how to create and manipulate the data!
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Database Demo Video](http://youtube.link.goes.here)
 
 # Cloud Database
 
-{Describe the cloud database you are using.}
+The Google Firebase Cloud database is a non-relational database that supports many different programming languages (C++, Java, JavaScript, Python, Swift, Objective-c, etc). This database uses a hierarchical based data structure to orginize your data. The structure is composed of collections and documents. A collection holds several documents, and within the document is a fields that you create to hold the data. You can also create subcollections within the documents to create more of seperation of data and break it down into smaller chunks for the documents to hold. This seperation and layering helps to create that hierarchical structure and makes it easier to query the data and more organized as well.  
 
-{Describe the structure of the database that you created.}
-
+My database is about famous scientists. The main collection is scientists, and then it separates into documents for each person. Each documents contains the person's first name, last name, middle name, birth year, death year, and their gender. This creates a very small hierarchal structure that the cloud database is great for.
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+### Tools used: 
+- Google Firebase
+- Vs Studios
 
-{Describe the programming language that you used and any libraries.}
-# languages
+### languages & libraries
 python3
-## libraries
-firebase-admin
+firebase-admin (pip install --upgrade firebase-admin)
 
 # Useful Websites
 
@@ -49,5 +43,5 @@ firebase-admin
 
 # Sources 
 Data based on:
-[Ten Historic Female Scientists You Should Know](https://www.smithsonianmag.com/science-nature/ten-historic-female-scientists-you-should-know-84028788/)
-[Famous Male Scientists](https://www.ranker.com/list/famous-male-scientists/reference)
+- [Ten Historic Female Scientists You Should Know](https://www.smithsonianmag.com/science-nature/ten-historic-female-scientists-you-should-know-84028788/)
+- [Famous Male Scientists](https://www.ranker.com/list/famous-male-scientists/reference)
